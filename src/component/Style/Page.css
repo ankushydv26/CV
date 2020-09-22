@@ -1,0 +1,41 @@
+.content {
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1190px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+section ul.menu {
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    margin-bottom: -1px;
+    border-radius: 5px 5px 0 0;
+    list-style: none;
+    padding: 0;
+    display: list-item;
+    margin-top: 31px;
+}
+
+body {
+    background-image: none !important;
+    background-color: #f5f8fa !important;
+    font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #333;
+}
+.post {
+    padding: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 1px solid #e1e8ed;
+    margin-bottom: -1px;
+}
+ul li{
+    padding-right: 4px;
+    list-style-type: none;
+}

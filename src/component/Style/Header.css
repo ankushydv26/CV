@@ -1,0 +1,196 @@
+.top-header {
+    background-color: #000000e5;
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+}
+.top-header .top-header-wrap-1 {
+    margin: 0 auto;
+    max-width: 1190px;
+    display: block;
+}
+.top-header .top-header-wrap-1 .top-header-wrap-2 {
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+.top-header .top-header-wrap-1 .top-header-wrap-2 .top-header-h1 {
+    display: block;
+    background-color: rgb(221, 210, 47);
+    color: #040708;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 0px;
+}
+.top-header .top-header-wrap-1 .top-header-wrap-2 .top-header-and {
+    color: #fff;
+    float: right;
+    padding-top: 30px;
+    padding-right:0px;
+    padding-left: 20px;
+}
+/* .mine{
+    display:none;
+} */
+.top-header .top-header-wrap-1 .top-header-wrap-2 .face {
+    position: absolute;
+    left: 10px;
+    bottom: -110px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.top-header .top-header-wrap-1 .top-header-wrap-2 .face .avatar {
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 1px rgba(136, 153, 166, 0.15);
+    width: 200px;
+    height: 200px;
+}
+.top-header .top-header-wrap-1 .top-header-wrap-2::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.top-menu .top-menu-wrap-1 {
+    margin: 0 auto;
+    max-width: 1190px;
+}
+.top-menu .top-menu-wrap-1 .top-menu-wrap-2 {
+    margin-left: 220px;
+}
+.top-menu .top-menu-wrap-1 .top-menu-wrap-2 .top-menu-wrap-3 {
+    margin: 0 auto;
+}
+.top-menu ul.menu {
+    list-style: none;
+    padding: 0;
+    display: list-item;
+}
+.pull-left {
+    float: left !important;
+}
+.top-menu ul.menu li.item {
+    display: inline-block;
+    cursor: default;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px 12px;
+}
+.top-menu ul.menu li.item a {
+    display: block;
+    color: #66757f;
+}
+.top-menu {
+    background-color: #fff;
+    border-bottom: 1px solid #e1e8ed;
+}
+top-menu ul.menu li.item .fap {
+    font-size: 40px;
+}
+/* .fap {
+    display: inline-block;
+    font-family: "appfont" !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fap-experiments:before {
+    content: "\e121";
+} */
+.top-menu ul.menu {
+    list-style: none;
+    padding: 0;
+    display: list-item;
+}
+.pull-right {
+    float: right !important;
+}
+.top-menu .top-menu-wrap-1 .top-menu-wrap-2 .top-menu-wrap-3::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.react-logo{
+    width: 147px;
+    float:right;
+}
+@media only screen and (min-width:550px){
+    .mine{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .top-header .top-header-wrap-1 .top-header-wrap-2 .face .avatar {
+        background: #fff;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        box-shadow: 0 1px 1px rgba(136, 153, 166, 0.15);
+        width: 121px;
+        height: 132px;
+    }
+    .top-header .top-header-wrap-1 .top-header-wrap-2 .top-header-h1 {
+        display: block;
+        background-color: rgb(221, 210, 47);
+        color: #040708;
+        padding-top: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+        margin-right: 0px;
+    }    
+    .react-logo {
+        width: 98px;
+        float: right;
+        margin: 0px;
+    }
+    .top-header .top-header-wrap-1 .top-header-wrap-2 .top-header-and {
+        color: #fff;
+        float: right;
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .top-menu ul.menu {
+        display: none;
+    }
+      
+     .mine{
+         padding-left: 132px;
+         padding-top: 10px;
+     }
+     .text{
+        margin-left: 12px;
+     } 
+     .text1{
+        margin-left: 5px;
+     } 
+     .text2{
+        margin-left: 19px;     }  
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+      }
+      .insta{
+          padding-left: 10px;
+      }
+      .git{
+          padding-left: 17px;
+      }
+      .fb{
+          padding-left: 16px;
+      }
+      
+    
+  }
