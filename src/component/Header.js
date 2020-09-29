@@ -35,7 +35,6 @@ class Header extends Component {
                   }}
                 >
                   <b>Ankush Kumar</b>
-                  
                 </div>
               </a>
             </div>
@@ -49,7 +48,7 @@ class Header extends Component {
                 <ul className="menu pull-left">
                   <li className="item">
                     <a className=" active" href=".">
-                      <img src={Cv} alt="resume" width="50px" height="auto" />
+                      <img src={Cv} alt="resume" width="40px" height="auto" />
                       <div className="text">CV</div>
                     </a>
                   </li>
@@ -64,7 +63,7 @@ class Header extends Component {
                         src={Insta}
                         alt="instagram"
                         href="."
-                        width="50px"
+                        width="40px"
                         height="auto"
                       />
                       <div className="text">Instagram</div>
@@ -81,7 +80,7 @@ class Header extends Component {
                           <img
                             src={Github}
                             alt="instagram"
-                            width="50px"
+                            width="40px"
                             height="auto"
                           />
                           <div className="text">Github</div>
@@ -95,7 +94,7 @@ class Header extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={Fb} alt="facebook" width="50px" height="auto" />
+                      <img src={Fb} alt="facebook" width="40px" height="auto" />
                       <div className="text">facebook</div>
                     </a>
                   </li>
@@ -103,6 +102,7 @@ class Header extends Component {
               </div>
             </div>
           </div>
+
           <div className="mine">
             <ul>
               <li>
@@ -146,7 +146,6 @@ class Header extends Component {
               </li>
             </ul>
           </div>
-          <p style={{margin:"8px",float:"right",fontSize:"16px"}}><b>Email:</b>tankush027@gmail.com</p>
         </div>
       </Fragment>
     );

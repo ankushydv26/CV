@@ -122,7 +122,7 @@ top-menu ul.menu li.item .fap {
     width: 147px;
     float:right;
 }
-@media only screen and (min-width:550px){
+@media only screen and (min-width:510px){
     .mine{
         display: none;
     }
