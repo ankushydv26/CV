@@ -3,11 +3,32 @@
     text-decoration: none;
     border-radius: 8px;
     color: #fff;
-    background-color: #5f41e2;
+    background-color: #190b57;
     margin: 10px;
     padding: 6px 10px;
     font-size: 14px;
     text-align: center;
+  }
+  .btn-nxt{
+    outline: none;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #190b57;
+    margin: 10px;
+    padding: 6px 10px;
+    margin-left: 90px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .btn:hover{
+    background-color: white;
+    color:#5f41e2;
+  }
+  .btn-nxt:hover{
+    background-color: white;
+    color:#5f41e2;
+    
   }
   .btn1{
     outline: none;

@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { Component } from "react";
 import { Button } from "react-bootstrap";
-
 import firebase from "./firebase";
+import {Link} from "react-router-dom"
 
 //css
 
@@ -13,9 +14,11 @@ class feedback extends Component {
     this.state = {
         email:"",
         feedback:"",
+        name:"",
       showPerson: false,
     };
   }
+  //button
   togglePersonHandler = () => {
     const isVisible = this.state.showPerson;
     this.setState({
@@ -28,12 +31,14 @@ class feedback extends Component {
           [e.target.name]:e.target.value
       },console.log(e.target.value))
   }
+
+
   sendFeed = () => {
-    
     const db = firebase.firestore();
     db.collection("feedbacker").add({
       email:this.state.email,
-      feedback:this.state.feedback
+      feedback:this.state.feedback,
+      name:this.state.name,
     })
     .then(function(){
       console.log("document send")
@@ -49,7 +54,7 @@ class feedback extends Component {
     if (this.state.showPerson) {
       feedback = (
         <div className="feedback-card">
-          <label className="ma2">Email (optional)</label>
+          <label className="ma2">Email </label>
           <input
             name="email"
             value={this.state.email}
@@ -58,12 +63,21 @@ class feedback extends Component {
             onChange={this.handleText}
           />
           <br></br>
-          <label className="ma2">Feedback</label>
+          <label className="ma2">Name </label>
+          <input
+            name="name"
+            value={this.state.name}
+            type="name"
+            placeholder="name"
+            onChange={this.handleText}
+          />
+          <br></br>
+          <label className="ma2">Feedback or Message </label>
           <input
             name="feedback"
             type="text"
             value={this.state.feedback}
-            placeholder="What can i improve"
+            placeholder="Type What in your mind"
             onChange={this.handleText}
             className="feedback-input"
           />
@@ -74,10 +88,15 @@ class feedback extends Component {
       );
     }
     return (
-      <div>
-        <p className="btn" onClick={this.togglePersonHandler}>
-          Click for give a feedback
-        </p>
+      <div >
+        <button className="btn" onClick={this.togglePersonHandler}>
+          Leave a message <span>😊 🖱️</span>
+        </button>
+        <Link to="/next" >
+          <button className="btn-nxt" >
+            Next
+          </button>
+        </Link>
         <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}

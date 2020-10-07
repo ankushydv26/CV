@@ -9,18 +9,19 @@ import Email from "./email"
 class Page extends Component {
   render() {
     return (
-      <div className="content" >
-        <section >
+        <div className="content" >
+      <section >
           <div className="post markdown" >
-          <div className="markdown" ><h1 id="oleg-smetanin-cv">Ankush Kumar CV</h1>
+          <div className="markdown" ><h1 >Ankush Kumar CV</h1>
             <p>Hi, I’m Ankush, an enthusiastic and self-motivated web developer.</p>
             <Email/>
             <h2 id="considerable-knowledge-of-front-end-stack-">Considerable knowledge of front-end stack:</h2>
             <ul>
-              <li>JavaScript, ES5, ES6, ES7 (async await with babel)</li>
-              <li>HTML5 Canvas</li>
-              <li>CSS, CSS3 </li>
+              <li>JavaScript</li>
+              <li>HTML5 </li>
+              <li>CSS3 </li>
               <li>React.js</li>
+              <li>Wordpress</li>
             </ul>
             <h2 id="considerable-knowledge-of-back-end-stack-">Considerable knowledge of back-end stack:</h2>
             <ul >
@@ -28,6 +29,13 @@ class Page extends Component {
               <li>SQL</li>
               <li>MongoDB</li>
             </ul>
+            <h2 >WORK & TRAINING</h2>
+            <h4>Organization:Qspider <span className="gray">2018-2019</span></h4>
+            <p>Manual and Automation Testing</p>
+            <h4>Organization:Appetals Solutions Pvt. Ltd. 'Mumbai' <span>2019</span></h4>
+            <p>Internship</p>
+            <h4>Organization:LogYcode Tech Solutions 'Delhi' <span>2019-2020</span></h4>
+            <p>Trainee</p>
             <h2 id="last-projects">Last projects</h2>
             <h3 id="structured-way-task-manager-https-structuredway-com-span-className-gray-2014-present-span-">Logistic Website (<a href="https://customer.logycode.com/">https://customer.logycode.com/</a>) <span className="gray">2019-2020</span></h3>
             <p>Client-side: ES6, ReactJS, Redux, TypeScript, Socket.IO, Bootstrap custom theme</p>
