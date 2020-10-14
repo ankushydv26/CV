@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.899d7df3.chunk.css",
-    "main.js": "/CV/static/js/main.02e60f31.chunk.js",
-    "main.js.map": "/CV/static/js/main.02e60f31.chunk.js.map",
+    "main.css": "/CV/static/css/main.0895b1ea.chunk.css",
+    "main.js": "/CV/static/js/main.97f1ee4f.chunk.js",
+    "main.js.map": "/CV/static/js/main.97f1ee4f.chunk.js.map",
     "runtime-main.js": "/CV/static/js/runtime-main.fbe74ee8.js",
     "runtime-main.js.map": "/CV/static/js/runtime-main.fbe74ee8.js.map",
-    "static/js/2.d567cfcb.chunk.js": "/CV/static/js/2.d567cfcb.chunk.js",
-    "static/js/2.d567cfcb.chunk.js.map": "/CV/static/js/2.d567cfcb.chunk.js.map",
+    "static/js/2.f3ca5fe4.chunk.js": "/CV/static/js/2.f3ca5fe4.chunk.js",
+    "static/js/2.f3ca5fe4.chunk.js.map": "/CV/static/js/2.f3ca5fe4.chunk.js.map",
     "index.html": "/CV/index.html",
-    "precache-manifest.d6d4be2dcb700a8f3dd33bcc41a75607.js": "/CV/precache-manifest.d6d4be2dcb700a8f3dd33bcc41a75607.js",
+    "precache-manifest.1ebe1a34bfbe070f543a8eee0a4e4ec3.js": "/CV/precache-manifest.1ebe1a34bfbe070f543a8eee0a4e4ec3.js",
     "service-worker.js": "/CV/service-worker.js",
-    "static/css/main.899d7df3.chunk.css.map": "/CV/static/css/main.899d7df3.chunk.css.map",
-    "static/js/2.d567cfcb.chunk.js.LICENSE.txt": "/CV/static/js/2.d567cfcb.chunk.js.LICENSE.txt",
-    "static/media/facebook.svg": "/CV/static/media/facebook.d1ac3589.svg",
+    "static/css/main.0895b1ea.chunk.css.map": "/CV/static/css/main.0895b1ea.chunk.css.map",
+    "static/js/2.f3ca5fe4.chunk.js.LICENSE.txt": "/CV/static/js/2.f3ca5fe4.chunk.js.LICENSE.txt",
     "static/media/files-and-folders.svg": "/CV/static/media/files-and-folders.907d4aab.svg",
     "static/media/github.svg": "/CV/static/media/github.eb038977.svg",
-    "static/media/instagram-sketched.svg": "/CV/static/media/instagram-sketched.59b0c8cb.svg",
+    "static/media/linkedin.svg": "/CV/static/media/linkedin.89dcd695.svg",
     "static/media/logo.svg": "/CV/static/media/logo.5d5d9eef.svg",
     "static/media/shanuCrop.jpg": "/CV/static/media/shanuCrop.91178edd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fbe74ee8.js",
-    "static/js/2.d567cfcb.chunk.js",
-    "static/css/main.899d7df3.chunk.css",
-    "static/js/main.02e60f31.chunk.js"
+    "static/js/2.f3ca5fe4.chunk.js",
+    "static/css/main.0895b1ea.chunk.css",
+    "static/js/main.97f1ee4f.chunk.js"
   ]
 }
