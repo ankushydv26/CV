@@ -3,31 +3,37 @@
     text-decoration: none;
     border-radius: 8px;
     color: #fff;
-    background-color: #190b57;
+    background-color: #0d091d;
     margin: 10px;
     padding: 6px 10px;
     font-size: 14px;
     text-align: center;
+    cursor: pointer;
   }
   .btn-nxt{
     outline: none;
     text-decoration: none;
     border-radius: 8px;
     color: #fff;
-    background-color: #190b57;
+    background-color: #0d091d;
     margin: 10px;
     padding: 6px 10px;
     margin-left: 90px;
     font-size: 14px;
     text-align: center;
+    cursor: pointer;
+
   }
   .btn:hover{
     background-color: white;
     color:#5f41e2;
+    border-color: teal;
+
   }
   .btn-nxt:hover{
     background-color: white;
     color:#5f41e2;
+    border-color: teal;
     
   }
   .btn1{
@@ -38,7 +44,9 @@
     background-color: #17c734;
     margin: 13px;
     padding: 11px 20px;
-    font-size: 12px;
+    font-size: 16px;
+    cursor: pointer;
+
   }
 
   .ma2{

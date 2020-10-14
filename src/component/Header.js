@@ -1,12 +1,10 @@
 import React, { Component, Fragment } from "react";
 import "./Style/Header.css";
 //logo svg
-import Insta from "./Logo/instagram-sketched.svg";
 import Cv from "./Logo/files-and-folders.svg";
 import Github from "./Logo/github.svg";
 import Image from "./Logo/shanuCrop.jpg";
 import logo from "./Logo/logo.svg";
-// import Fb from "./Logo/facebook.svg";
 import Linkedin from "./Logo/linkedin.svg"
 
 
@@ -53,24 +51,7 @@ class Header extends Component {
                       <div className="text">CV</div>
                     </a>
                   </li>
-                  <li className="item">
-                    <a
-                      className=""
-                      href="https://www.instagram.com/ankush_ydv/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src={Insta}
-                        alt="instagram"
-                        href="."
-                        width="40px"
-                        height="auto"
-                      />
-                      <div className="text">Instagram</div>
-                    </a>
-                  </li>
-                  {/* <li className="item">
+                  <li className="item"> 
                     <div className="git">
                       <div>
                         <a
@@ -88,7 +69,7 @@ class Header extends Component {
                         </a>
                       </div>
                     </div>
-                  </li> */}
+                  </li> 
                   <li className="item">
                     <a
                       href="https://www.linkedin.com/in/ankush-kumar-0m/"
@@ -114,17 +95,6 @@ class Header extends Component {
                   <div className="text">CV</div>
                 </a>
               </li>
-              {/* <li>
-                <a
-                  className="insta"
-                  href="https://www.instagram.com/ankush_ydv/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={Insta} alt="instagram" width="40px" height="auto" />
-                  <div className="text1">Instagram</div>
-                </a>
-              </li> */}
               <li>
                 <a
                   className="git"
@@ -133,13 +103,13 @@ class Header extends Component {
                   rel="noopener noreferrer"
                 >
                   <img src={Github} alt="git" width="36px" height="auto" />
-                  <div className="text2">Github</div>
+                  <div className="text">Github</div>
                 </a>
               </li>
               <li>
                 <a
                   className="Linkedin"
-                  href="https://www.facebook.com/ankush.yadav.121"
+                  href="https://www.linkedin.com/in/ankush-kumar-0m/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

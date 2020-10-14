@@ -20,7 +20,7 @@ export default function CopyExample() {
 
   return (
     <div  style={{display:'flex'}}>
-        <strong style={{marginRight:'5px'}}>Email id</strong>
+        <strong style={{marginRight:'5px'}}>Email id :</strong>
       <form>
         <textarea
           ref={textAreaRef}
