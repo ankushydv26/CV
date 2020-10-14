@@ -84,6 +84,7 @@
 .top-menu ul.menu li.item a {
     display: block;
     color: #66757f;
+    text-decoration: none;
 }
 .top-menu {
     background-color: #fff;
