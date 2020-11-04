@@ -51,6 +51,7 @@
 
   .ma2{
     margin: 5px;
+    font-size: medium;
   }
   
   input{
@@ -68,3 +69,7 @@
     height: 60px;
     width: 200px;
   }
+  .feedback-card{
+    width: 50%;
+  }
+ 

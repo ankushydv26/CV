@@ -5,8 +5,8 @@ import Cv from "./Logo/files-and-folders.svg";
 import Github from "./Logo/github.svg";
 import Image from "./Logo/shanuCrop.jpg";
 import logo from "./Logo/logo.svg";
-import Linkedin from "./Logo/linkedin.svg"
-
+import Linkedin from "./Logo/linkedin.svg";
+import Facebook from "./Logo/facebook.svg";
 
 class Header extends Component {
   render() {
@@ -30,7 +30,7 @@ class Header extends Component {
                     fontSize: "25px",
                     display: "inline-block",
                     margin: "0px",
-                    padding: "0px",
+                    paddingTop: "40px",
                   }}
                 >
                   <b>Ankush Kumar</b>
@@ -51,7 +51,7 @@ class Header extends Component {
                       <div className="text">CV</div>
                     </a>
                   </li>
-                  <li className="item"> 
+                  <li className="item">
                     <div className="git">
                       <div>
                         <a
@@ -69,15 +69,36 @@ class Header extends Component {
                         </a>
                       </div>
                     </div>
-                  </li> 
+                  </li>
                   <li className="item">
                     <a
                       href="https://www.linkedin.com/in/ankush-kumar-0m/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={Linkedin} alt="Linkedin" width="40px" height="auto" />
+                      <img
+                        src={Linkedin}
+                        alt="Linkedin"
+                        width="40px"
+                        height="auto"
+                      />
                       <div className="text">Linkedin</div>
+                    </a>
+                  </li>
+                  <li className="item">
+                    <a
+                      className="facebook"
+                      href="https://www.facebook.com/ankush.yadav.121"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src={Facebook}
+                        alt="Facebook"
+                        width="40px"
+                        height="auto"
+                      />
+                      <div className="text">Facebook</div>
                     </a>
                   </li>
                 </ul>
@@ -88,9 +109,7 @@ class Header extends Component {
           <div className="mine">
             <ul>
               <li>
-                <a 
-                  className="active" 
-                  href=".">
+                <a className="active" href=".">
                   <img src={Cv} alt="resume" width="40px" height="auto" />
                   <div className="text">CV</div>
                 </a>
@@ -113,8 +132,29 @@ class Header extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Linkedin} alt="Linkedin" width="40px" height="auto" />
+                  <img
+                    src={Linkedin}
+                    alt="Linkedin"
+                    width="40px"
+                    height="auto"
+                  />
                   <div className="text">Linkedin</div>
+                </a>
+              </li>
+              <li>
+                <a
+                  className="facebook"
+                  href="https://www.facebook.com/ankush.yadav.121"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Facebook}
+                    alt="Facebook"
+                    width="40px"
+                    height="auto"
+                  />
+                  <div className="text">Facebook</div>
                 </a>
               </li>
             </ul>

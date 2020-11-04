@@ -72,7 +72,7 @@ class feedback extends Component {
             onChange={this.handleText}
           />
           <br></br>
-          <label className="ma2">Feedback or Message </label>
+          <label className="ma1">Feedback or Message </label>
           <input
             name="feedback"
             type="text"
@@ -88,7 +88,7 @@ class feedback extends Component {
       );
     }
     return (
-      <div >
+      <div className="btn-class" >
         <button className="btn" onClick={this.togglePersonHandler}>
           Leave a message <span>😊 🖱️</span>
         </button>
@@ -101,8 +101,9 @@ class feedback extends Component {
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          {feedback}
+          
         </div>
+        {feedback}
       </div>
     );
   }
