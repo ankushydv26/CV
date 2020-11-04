@@ -7,6 +7,7 @@ import Image from "./Logo/shanuCrop.jpg";
 import logo from "./Logo/logo.svg";
 import Linkedin from "./Logo/linkedin.svg";
 import Facebook from "./Logo/facebook.svg";
+// import {Link} from "rea"
 
 class Header extends Component {
   render() {
@@ -21,7 +22,7 @@ class Header extends Component {
               <div className="top-header-and">&amp;</div>
               <div className="top-header-h1 z-depth-1">JS</div>
 
-              <a className="face" href=".">
+              <div className="face" href="#">
                 <img className="avatar" src={Image} alt="Display-pic" />
                 <div
                   className="name"
@@ -29,13 +30,14 @@ class Header extends Component {
                     fontFamily: "cursive,sans serif",
                     fontSize: "25px",
                     display: "inline-block",
-                    margin: "0px",
+                    margin: "5px",
                     paddingTop: "40px",
+                    color:"rebeccapurple"
                   }}
                 >
                   <b>Ankush Kumar</b>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -46,9 +48,9 @@ class Header extends Component {
               <div className="top-menu-wrap-3">
                 <ul className="menu pull-left">
                   <li className="item">
-                    <a className=" active" href=".">
+                    <a className=" active" href={require("./Logo/Resume.docx")} download="mySimpleCv.docx">
                       <img src={Cv} alt="resume" width="40px" height="auto" />
-                      <div className="text">CV</div>
+                      <div className="text">Download Cv(.docx)</div>
                     </a>
                   </li>
                   <li className="item">
@@ -109,10 +111,10 @@ class Header extends Component {
           <div className="mine">
             <ul>
               <li>
-                <a className="active" href=".">
-                  <img src={Cv} alt="resume" width="40px" height="auto" />
-                  <div className="text">CV</div>
-                </a>
+                <a className="active" href="." >
+                      <img src={Cv} alt="resume" width="40px" height="auto" />
+                      <div className="text"> Cv</div>
+                    </a>
               </li>
               <li>
                 <a
