@@ -29,7 +29,7 @@ class feedback extends Component {
   handleText = (e) =>{
       this.setState({
           [e.target.name]:e.target.value
-      },console.log(e.target.value))
+      })
   }
 
 
@@ -45,7 +45,7 @@ class feedback extends Component {
       window.location="."
     })
     .catch(function(err){
-      console.log("something went wrong@@@@")
+      console.log("something went wrong@@@@" + err)
     })
     
   }
