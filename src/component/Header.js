@@ -35,7 +35,7 @@ class Header extends Component {
                     color:"rebeccapurple"
                   }}
                 >
-                  <b>Ankush Kumar</b>
+                  <b>Ankush Kumar.</b>
                 </div>
               </div>
             </div>
