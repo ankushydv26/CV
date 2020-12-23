@@ -18,11 +18,12 @@
     display: block;
     background-color: rgb(221, 210, 47);
     color: #040708;
-    padding-top: 30px;
+    padding-top: 18px;
     padding-left: 20px;
     padding-right: 10px;
     float: right;
     margin-right: 0px;
+    margin-top: 10px;
 }
 .top-header .top-header-wrap-1 .top-header-wrap-2 .top-header-and {
     color: #fff;
@@ -93,18 +94,7 @@
 top-menu ul.menu li.item .fap {
     font-size: 40px;
 }
-/* .fap {
-    display: inline-block;
-    font-family: "appfont" !important;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.fap-experiments:before {
-    content: "\e121";
-} */
+
 .top-menu ul.menu {
     list-style: none;
     padding: 0;
@@ -122,7 +112,17 @@ top-menu ul.menu li.item .fap {
 .react-logo{
     width: 147px;
     float:right;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+@keyframes rotate{
+
+    100%{
+      transform:rotate(360deg);
+    }
+  }
 @media only screen and (min-width:500px){
     .mine{
         display: none;
@@ -152,9 +152,9 @@ top-menu ul.menu li.item .fap {
         display: block;
         background-color: rgb(221, 210, 47);
         color: #040708;
-        padding-top: 17px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 4px;
+        padding-left: 5px;
+        padding-right: 5px;
         float: right;
         margin-right: 0px;
     }    
@@ -178,13 +178,16 @@ top-menu ul.menu li.item .fap {
          padding-left: 132px;
          padding-top: 10px;
      } */
-     .mine{
+     .mine > ul{
          display: flex;
          justify-content: center;
          padding: 0.5rem;
          margin-right: rem ;
          align-items: center;
          padding-top: 45px;
+     }
+     .top-header-and{
+         display: none;
      }
      .text{
          text-align: center;
@@ -203,7 +206,7 @@ top-menu ul.menu li.item .fap {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        display: flex;
+        /* display: flex; */
       }
       .insta{
           padding-left: 10px;

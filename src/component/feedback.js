@@ -94,7 +94,7 @@ class feedback extends Component {
         </button>
         <Link to="/next" >
           <button className="btn-nxt" >
-            Next
+            Next Page
           </button>
         </Link>
         <div
