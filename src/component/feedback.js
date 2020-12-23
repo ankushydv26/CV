@@ -15,6 +15,7 @@ class feedback extends Component {
         email:"",
         feedback:"",
         name:"",
+        date:new Date(),
       showPerson: false,
     };
   }
@@ -39,6 +40,7 @@ class feedback extends Component {
       email:this.state.email,
       feedback:this.state.feedback,
       name:this.state.name,
+      date:this.state.date
     })
     .then(function(){
       console.log("document send")
