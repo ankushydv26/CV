@@ -113,7 +113,7 @@ top-menu ul.menu li.item .fap {
     width: 147px;
     float:right;
     animation-name:rotate;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
