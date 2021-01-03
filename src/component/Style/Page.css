@@ -7,6 +7,7 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
 
 section ul.menu {
     background-color: #fff;
@@ -22,14 +23,15 @@ section ul.menu {
 body {
     background-image: none !important;
     background-color: #f5f8fa !important;
-    font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    /* font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; */
     color: #333;
+    font-family: "Poopins";
 }
 .post {
     padding: 30px;
     background-color: #fff;
     overflow: hidden;
-    font-family:  "system-ui";
+    font-family:  "Poopins", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     border: 1px solid #e1e8ed;
