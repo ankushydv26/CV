@@ -12,9 +12,10 @@ class Page extends Component {
         <div className="content" >
       <section >
           <div className="post markdown" >
-          <div className="markdown" ><h1 >Ankush Kumar CV</h1>
-            <p>Hi, I’m Ankush, an enthusiastic and self-motivated web developer.</p>
+          <div className="markdown" >
             <Email/>
+            <p>Hi, I’m Ankush, an enthusiastic and self-motivated web developer.</p>
+            
             <h2 id="considerable-knowledge-of-front-end-stack-">Considerable knowledge of front-end stack:</h2>
             <ul>
               <li>JavaScript</li>
