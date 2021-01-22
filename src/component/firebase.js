@@ -4,7 +4,7 @@ import "firebase/firestore"
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCAyn2TxwOQgQxCfx7xlPd_ij6DyCh9LbU",
+    apiKey: process.RREACT_APP_APIKEY,
     authDomain: "cv-feedback-13652.firebaseapp.com",
     projectId: "cv-feedback-13652",
     storageBucket: "cv-feedback-13652.appspot.com",
