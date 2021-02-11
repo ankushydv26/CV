@@ -36,7 +36,7 @@ class feedback extends Component {
 
   sendFeed = () => {
     const db = firebase.firestore();
-    db.collection("feedbacker").add({
+    db.collection("feedback").add({
       email:this.state.email,
       feedback:this.state.feedback,
       name:this.state.name,
