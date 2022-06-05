@@ -9,7 +9,6 @@ function Next() {
                     <li>
                     Travelling
                     </li>
-                    <li>Ethical Hacking</li>
                     <li>Chess</li>
                     <li>Sports</li>
                 </ul>
